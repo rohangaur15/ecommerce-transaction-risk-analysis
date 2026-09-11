@@ -358,5 +358,3 @@ risk_level_summary = (
 )
 
 print(risk_level_summary)
-
-
