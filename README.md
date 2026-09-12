@@ -199,6 +199,48 @@ ecommerce-transaction-risk-analysis/
 
 ```bash
 git clone https://github.com/rohangaur15/ecommerce-transaction-risk-analysis.git
-
 ```
 
+### 2. Move into the project folder
+
+```bash
+cd ecommerce-transaction-risk-analysis
+```
+
+### 3. Create a virtual environment
+
+On Windows:
+
+```bash
+python -m venv venv
+```
+
+### 4. Activate the virtual environment
+
+```bash
+venv\Scripts\activate
+```
+
+### 5. Install the dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 6. Generate the dataset
+
+```bash
+python src/generate_dataset.py
+```
+
+### 7. Run the data cleaning process
+
+```bash
+python src/data_analysis.py
+```
+
+### 8. Run the risk analysis
+
+```bash
+python src/risk_analysis.py
+```
